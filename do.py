@@ -3,13 +3,13 @@ from logger import operation_logger as logg
 def div(a, b):
     logg(f'{a} / {b}', a / b)
     print (a / b)
-    input()
+    input("Нажмите Enter для продолжения...")
 
 
 def mult(a, b):
     logg(f'{a} * {b}', a * b)
     print (a * b)
-    input()
+    input("Нажмите Enter для продолжения...")
 
 def sub(a, b):
     logg(f'{a} - {b}', a - b)
